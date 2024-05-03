@@ -1,0 +1,83 @@
+|display_encoder
+b[0] => b[0].IN2
+b[1] => b[1].IN2
+b[2] => b[2].IN2
+b[3] => b[3].IN2
+b[4] => b[4].IN2
+b[5] => b[5].IN2
+L[0] <= L.DB_MAX_OUTPUT_PORT_TYPE
+L[1] <= L.DB_MAX_OUTPUT_PORT_TYPE
+L[2] <= L.DB_MAX_OUTPUT_PORT_TYPE
+L[3] <= L.DB_MAX_OUTPUT_PORT_TYPE
+L[4] <= L.DB_MAX_OUTPUT_PORT_TYPE
+L[5] <= L.DB_MAX_OUTPUT_PORT_TYPE
+L[6] <= L.DB_MAX_OUTPUT_PORT_TYPE
+Dig[0] <= debo1dig:DEBO.dig
+Dig[1] <= debo1dig:DEBO.dig
+Dig[2] <= debo1dig:DEBO.dig
+Dig[3] <= debo1dig:DEBO.dig
+H <= debo1dig:DEBO.H
+
+
+|display_encoder|encpri63:encpri63
+X[0] => Decoder0.IN5
+X[0] => Equal0.IN5
+X[1] => Decoder0.IN4
+X[1] => Equal0.IN4
+X[2] => Decoder0.IN3
+X[2] => Equal0.IN3
+X[3] => Decoder0.IN2
+X[3] => Equal0.IN2
+X[4] => Decoder0.IN1
+X[4] => Equal0.IN1
+X[5] => Decoder0.IN0
+X[5] => Equal0.IN0
+Y[0] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Idle <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_encoder|debo1dig:DEBO
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+L[0] <= seven_seg_decoder:dec7seg.Y
+L[1] <= seven_seg_decoder:dec7seg.Y
+L[2] <= seven_seg_decoder:dec7seg.Y
+L[3] <= seven_seg_decoder:dec7seg.Y
+L[4] <= seven_seg_decoder:dec7seg.Y
+L[5] <= seven_seg_decoder:dec7seg.Y
+L[6] <= seven_seg_decoder:dec7seg.Y
+dig[0] <= <VCC>
+dig[1] <= <VCC>
+dig[2] <= <VCC>
+dig[3] <= <GND>
+H <= <VCC>
+
+
+|display_encoder|debo1dig:DEBO|seven_seg_decoder:dec7seg
+A[0] => Decoder0.IN3
+A[1] => Decoder0.IN2
+A[2] => Decoder0.IN1
+A[3] => Decoder0.IN0
+Y[0] <= WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|display_encoder|error_detector:error_detector
+X[0] => Decoder0.IN5
+X[1] => Decoder0.IN4
+X[2] => Decoder0.IN3
+X[3] => Decoder0.IN2
+X[4] => Decoder0.IN1
+X[5] => Decoder0.IN0
+Y <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

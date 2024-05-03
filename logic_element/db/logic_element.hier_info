@@ -1,0 +1,29 @@
+|logic_element
+A[0] => A[0].IN1
+A[1] => A[1].IN1
+A[2] => A[2].IN1
+A[3] => A[3].IN1
+A[4] => Mux0.IN3
+A[5] => Mux0.IN2
+A[6] => Mux0.IN1
+A[7] => Mux0.IN0
+M[0] => Mux0.IN5
+M[1] => Mux0.IN4
+Y[0] <= four_bit_neg:neg.Y
+Y[1] <= four_bit_neg:neg.Y
+Y[2] <= four_bit_neg:neg.Y
+Y[3] <= four_bit_neg:neg.Y
+C <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|logic_element|four_bit_neg:neg
+X[0] => Y[0].DATAIN
+X[1] => Y[1].DATAIN
+X[2] => Y[2].DATAIN
+X[3] => Y[3].DATAIN
+Y[0] <= X[0].DB_MAX_OUTPUT_PORT_TYPE
+Y[1] <= X[1].DB_MAX_OUTPUT_PORT_TYPE
+Y[2] <= X[2].DB_MAX_OUTPUT_PORT_TYPE
+Y[3] <= X[3].DB_MAX_OUTPUT_PORT_TYPE
+
+

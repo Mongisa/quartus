@@ -1,0 +1,15 @@
+`timescale 1ns/1ps
+module tb_logic_element();
+reg [3:0] Xtb;
+wire [3:0] Ytb;
+
+logic_element UUT(.X(Xtb),.Y(Ytb));
+
+initial
+begin
+	Xtb = 4'b0000; #10;
+	Xtb = 4'b1111; #10;
+	Xtb = 4'b1010; #10;
+$stop;
+end
+endmodule
