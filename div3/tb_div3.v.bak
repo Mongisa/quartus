@@ -1,0 +1,4 @@
+module tb_div3();
+
+reg [7:0] Atb;
+wire Ytb
