@@ -8,7 +8,7 @@ assign P = din | (~Q[0]);
 
 always @ (posedge clk)
 begin
-if(reset)
+if(reset==1'b1)
 	Q<=4'b0000;
 else
 begin
