@@ -1,0 +1,21 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED",
+					"strict" : false
+				},
+				{
+					"name" : "ck",
+					"strict" : false
+				},
+				{
+					"name" : "r",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

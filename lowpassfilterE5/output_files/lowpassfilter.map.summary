@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Sat May 11 06:59:17 2024
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : lowpassfilter
+Top-level Entity Name : lowpassfilter
+Family : Cyclone IV E
+Total logic elements : 68
+    Total combinational functions : 36
+    Dedicated logic registers : 32
+Total registers : 32
+Total pins : 18
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0
