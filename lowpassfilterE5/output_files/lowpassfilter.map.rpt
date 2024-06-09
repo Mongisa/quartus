@@ -1,5 +1,5 @@
 Analysis & Synthesis report for lowpassfilter
-Sat May 11 06:59:17 2024
+Wed May 22 14:05:33 2024
 Quartus Prime Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
 
 
@@ -43,7 +43,7 @@ https://fpgasoftware.intel.com/eula.
 +-------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                        ;
 +------------------------------------+------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Sat May 11 06:59:17 2024          ;
+; Analysis & Synthesis Status        ; Successful - Wed May 22 14:05:33 2024          ;
 ; Quartus Prime Version              ; 22.1std.0 Build 915 10/25/2022 SC Lite Edition ;
 ; Revision Name                      ; lowpassfilter                                  ;
 ; Top-level Entity Name              ; lowpassfilter                                  ;
@@ -264,7 +264,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 22.1std.0 Build 915 10/25/2022 SC Lite Edition
-    Info: Processing started: Sat May 11 06:59:10 2024
+    Info: Processing started: Wed May 22 14:05:24 2024
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off lowpassfilter -c lowpassfilter
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -281,9 +281,9 @@ Info (21057): Implemented 86 device resources after synthesis - the final resour
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 68 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 424 megabytes
-    Info: Processing ended: Sat May 11 06:59:17 2024
-    Info: Elapsed time: 00:00:07
-    Info: Total CPU time (on all processors): 00:00:13
+    Info: Peak virtual memory: 408 megabytes
+    Info: Processing ended: Wed May 22 14:05:33 2024
+    Info: Elapsed time: 00:00:09
+    Info: Total CPU time (on all processors): 00:00:15
 
 
