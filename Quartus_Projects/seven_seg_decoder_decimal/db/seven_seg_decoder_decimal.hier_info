@@ -1,0 +1,29 @@
+|seven_seg_decoder_decimal
+A[0] => Mux0.IN19
+A[0] => Mux1.IN19
+A[0] => Decoder0.IN2
+A[0] => Mux2.IN19
+A[0] => Mux3.IN19
+A[1] => Mux0.IN18
+A[1] => Mux1.IN18
+A[1] => Decoder0.IN1
+A[1] => Mux2.IN18
+A[1] => Mux3.IN18
+A[2] => Mux0.IN17
+A[2] => Mux1.IN17
+A[2] => Decoder0.IN0
+A[2] => Mux2.IN17
+A[2] => Mux3.IN17
+A[3] => Mux0.IN16
+A[3] => Mux1.IN16
+A[3] => Mux2.IN16
+A[3] => Mux3.IN16
+Y[0] << Mux3.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] << Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] << Mux2.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] << Mux1.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] << Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

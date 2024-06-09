@@ -1,0 +1,17 @@
+ `timescale 1ns/1ps
+ 
+ reg [7:0] Atb,Btb;
+ wire [6:0] Y0tb,Y1tb;
+ 
+ addanddisplay UUT(.A(Atb),.B(Btb),.Y0(Y0tb),.Y1(Y1tb));
+ 
+ initial
+ begin
+	Atb = 8'd1;
+	Btb = 8'd1; #10;
+	
+	Atb = 8'd255;
+	Btb = 8'd1; #10;
+	$stop;
+ end
+ endmodule

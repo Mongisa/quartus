@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Thu Mar 21 10:23:02 2024
+Quartus Prime Version : 22.1std.0 Build 915 10/25/2022 SC Lite Edition
+Revision Name : series_two
+Top-level Entity Name : series_two
+Family : Cyclone IV E
+Total logic elements : 2
+    Total combinational functions : 0
+    Dedicated logic registers : 2
+Total registers : 2
+Total pins : 3
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

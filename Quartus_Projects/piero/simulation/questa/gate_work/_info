@@ -1,0 +1,91 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ubuntu/Documents/Quartus_Projects/piero/simulation/questa
+T_opt
+!s110 1713885584
+VlDdP<^PKYQ^U:aaF7`B>S3
+04 8 4 work tb_piero fast 0
+=1-000ae431a4f1-6627d18f-ecd6c-1e8a
+!s124 OEM10U3 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L cycloneive_ver -L gate_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vhard_block
+Z2 !s110 1713885583
+!i10b 1
+!s100 jAI;A3FIkR9onZ6z9h>=d3
+IlnRmg@ADKIV65Xkj=2n]40
+R0
+Z3 w1713885574
+Z4 8piero.vo
+Z5 Fpiero.vo
+!i122 0
+L0 655 34
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z8 !s108 1713885583.000000
+Z9 !s107 piero.vo|
+Z10 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|piero.vo|
+!i113 0
+Z11 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -vlog01compat -work work +incdir+. -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vpiero
+R2
+!i10b 1
+!s100 fc0jT:T9miX6C:hIi;IWR2
+I1]@XzXmXzh93JY9hBj5[>1
+R0
+R3
+R4
+R5
+!i122 0
+L0 32 622
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R12
+R1
+vtb_piero
+R2
+!i10b 1
+!s100 UMV_MAE48aOh@KGjBV]2d2
+I12Cz55jQ:G0C_2T8YPG^?1
+R0
+w1713885225
+8/home/ubuntu/Documents/Quartus_Projects/piero/tb_piero.v
+F/home/ubuntu/Documents/Quartus_Projects/piero/tb_piero.v
+!i122 1
+L0 2 31
+R6
+R7
+r1
+!s85 0
+31
+R8
+!s107 /home/ubuntu/Documents/Quartus_Projects/piero/tb_piero.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ubuntu/Documents/Quartus_Projects/piero|/home/ubuntu/Documents/Quartus_Projects/piero/tb_piero.v|
+!i113 0
+R11
+!s92 -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/piero -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
