@@ -1,7 +1,0 @@
-|series_two
-A => X.DATAIN
-B <= B~reg0.DB_MAX_OUTPUT_PORT_TYPE
-CK => B~reg0.CLK
-CK => X.CLK
-
-
