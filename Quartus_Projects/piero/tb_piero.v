@@ -1,0 +1,32 @@
+`timescale 1ns/1ps
+module tb_piero();
+
+reg [3:0] Atb,Btb;
+wire [1:0] YAtb;
+wire [9:0] YBtb;
+wire EAtb,EBtb;
+
+piero UUT(.A(Atb),.B(Btb),.YA(YAtb),.YB(YBtb),.EA(EAtb),.EB(EBtb));
+
+initial
+begin
+	Atb = 4'b0010;
+	Btb = 4'b0001; #10;
+	
+	Atb = 4'b1010;
+	Btb = 4'b0011; #10;
+	
+	Atb = 4'b0000;
+	Btb = 4'b1000; #10;
+	
+	Atb = 4'b1111;
+	Btb = 4'b0010; #10;
+	
+	Atb = 4'b0100;
+	Btb = 4'b1100; #10;
+	
+	Atb = 4'b0100;
+	Btb = 4'b0000; #10;
+	$stop;
+end
+endmodule

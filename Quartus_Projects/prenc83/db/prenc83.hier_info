@@ -1,0 +1,44 @@
+|prenc83
+A[0] => Idle.IN1
+A[1] => H.IN0
+A[1] => Idle.IN1
+A[2] => H.IN0
+A[2] => H.IN1
+A[2] => Idle.IN1
+A[3] => H.IN0
+A[3] => H.IN1
+A[3] => H.IN1
+A[3] => Idle.IN1
+A[4] => H.IN0
+A[4] => H.IN1
+A[4] => H.IN1
+A[4] => H.IN1
+A[4] => Idle.IN1
+A[5] => H.IN0
+A[5] => H.IN1
+A[5] => H.IN1
+A[5] => H.IN1
+A[5] => H.IN1
+A[5] => Idle.IN1
+A[6] => H[5].IN0
+A[6] => H.IN1
+A[6] => H.IN1
+A[6] => H.IN1
+A[6] => H.IN1
+A[6] => H.IN1
+A[6] => Idle.IN0
+A[7] => Y.IN1
+A[7] => Y.IN1
+A[7] => H[3].IN1
+A[7] => H[4].IN1
+A[7] => H[5].IN1
+A[7] => H[1].IN1
+A[7] => H[2].IN1
+A[7] => H[0].IN1
+A[7] => Idle.IN1
+Y[0] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] << Y.DB_MAX_OUTPUT_PORT_TYPE
+Idle << Idle.DB_MAX_OUTPUT_PORT_TYPE
+
+

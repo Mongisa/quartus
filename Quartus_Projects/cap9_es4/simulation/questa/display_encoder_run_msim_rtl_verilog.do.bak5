@@ -1,0 +1,21 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/cap9_es4 {/home/ubuntu/Documents/Quartus_Projects/cap9_es4/seven_seg_decoder.v}
+vlog -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/cap9_es4 {/home/ubuntu/Documents/Quartus_Projects/cap9_es4/debo1dig.v}
+vlog -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/cap9_es4 {/home/ubuntu/Documents/Quartus_Projects/cap9_es4/display_encoder.v}
+vlog -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/cap9_es4 {/home/ubuntu/Documents/Quartus_Projects/cap9_es4/encpri63.v}
+vlog -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/cap9_es4 {/home/ubuntu/Documents/Quartus_Projects/cap9_es4/error_detector.v}
+
+vlog -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/cap9_es4 {/home/ubuntu/Documents/Quartus_Projects/cap9_es4/tb_display_encoder.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  tb_display_encoder
+
+add wave *
+view structure
+view signals
+run -all

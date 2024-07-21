@@ -1,0 +1,12 @@
+`timescale 1ns/1ps;
+module tb_sqrt();
+
+reg [3:0] Atb;
+wire [5:0] Ytb;
+
+sqrt UUT(.A(Atb),.Y(Ytb));
+
+initial
+begin
+end
+endmodule

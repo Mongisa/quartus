@@ -1,0 +1,8 @@
+module tb_blink();
+
+reg ck,r;
+wire LED;
+
+blink UUT(.ck(ck),.LED(LED),.r(r));
+
+always

@@ -1,0 +1,91 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ubuntu/Documents/Quartus_Projects/adder8bit/simulation/questa
+T_opt
+Z1 !s110 1721224307
+VY:zUnh56YaWA6ok<PDOIE2
+04 12 4 work tb_adder8bit fast 0
+=1-000ae431a4f1-6697cc73-1f19f-2351
+!s124 OEM10U4 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vadder8bit
+Z3 !s110 1721224306
+!i10b 1
+!s100 F1@0aX1[nWP3QVIcDG1L12
+IKdW[j?UP2W2^oJ<mJinzL2
+R0
+w1721214329
+8/home/ubuntu/Documents/Quartus_Projects/adder8bit/adder8bit.v
+F/home/ubuntu/Documents/Quartus_Projects/adder8bit/adder8bit.v
+!i122 0
+L0 1 18
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z6 !s108 1721224306.000000
+!s107 /home/ubuntu/Documents/Quartus_Projects/adder8bit/adder8bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ubuntu/Documents/Quartus_Projects/adder8bit|/home/ubuntu/Documents/Quartus_Projects/adder8bit/adder8bit.v|
+!i113 0
+Z7 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z8 !s92 -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/adder8bit -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vseven_seg_decoder
+R3
+!i10b 1
+!s100 Q1D1FWe[fDiE7dke;MPGU0
+IgCXf;W8M2R<S<4o;99DWi0
+R0
+w1721212251
+8/home/ubuntu/Documents/Quartus_Projects/adder8bit/seven_seg_decoder.v
+F/home/ubuntu/Documents/Quartus_Projects/adder8bit/seven_seg_decoder.v
+!i122 1
+L0 1 27
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ubuntu/Documents/Quartus_Projects/adder8bit/seven_seg_decoder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ubuntu/Documents/Quartus_Projects/adder8bit|/home/ubuntu/Documents/Quartus_Projects/adder8bit/seven_seg_decoder.v|
+!i113 0
+R7
+R8
+R2
+vtb_adder8bit
+R1
+!i10b 1
+!s100 0ISX;H4f_BHHQRLXgWSaS1
+I5?V21ZPNzMf[2Weo^U=E_3
+R0
+w1721224281
+8/home/ubuntu/Documents/Quartus_Projects/adder8bit/tb_adder8bit.v
+F/home/ubuntu/Documents/Quartus_Projects/adder8bit/tb_adder8bit.v
+!i122 2
+L0 2 26
+R4
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/ubuntu/Documents/Quartus_Projects/adder8bit/tb_adder8bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ubuntu/Documents/Quartus_Projects/adder8bit|/home/ubuntu/Documents/Quartus_Projects/adder8bit/tb_adder8bit.v|
+!i113 0
+R7
+R8
+R2

@@ -1,0 +1,18 @@
+`timescale 1ns/1ps
+module tb_acc();
+
+localparam period=20;
+
+reg clk,r,sel;
+reg [2:0] Btb;
+wire [7:0] Ytb;
+
+always
+begin
+	clk=1'b0; #(period/2.0);
+	clk=1'b1; #(period/2.0);
+end
+
+acc UUT(.clk(clk),.r(r),.sel(.sel),.Y(Ytb),.B(Btb));
+
+endmodule

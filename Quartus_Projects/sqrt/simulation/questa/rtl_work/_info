@@ -1,0 +1,68 @@
+m255
+K4
+z2
+!s99 nomlopt
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ubuntu/Documents/Quartus_Projects/sqrt/simulation/questa
+T_opt
+Z1 !s110 1721233191
+VJmcZ]d=O;6>a73JWbMaC40
+04 7 4 work tb_sqrt fast 0
+=1-000ae431a4f1-6697ef27-46826-1904
+!s124 OEM10U2 
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2021.2;73
+vsqrt
+R1
+!i10b 1
+!s100 W=4fm]dSh`RVAfOBaCWle1
+I=BLI:Jf9kkgQ^8]`]FjC41
+R0
+w1721232990
+8/home/ubuntu/Documents/Quartus_Projects/sqrt/sqrt.v
+F/home/ubuntu/Documents/Quartus_Projects/sqrt/sqrt.v
+!i122 0
+L0 1 38
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z5 !s108 1721233191.000000
+!s107 /home/ubuntu/Documents/Quartus_Projects/sqrt/sqrt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ubuntu/Documents/Quartus_Projects/sqrt|/home/ubuntu/Documents/Quartus_Projects/sqrt/sqrt.v|
+!i113 0
+Z6 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z7 !s92 -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/sqrt -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vtb_sqrt
+R1
+!i10b 1
+!s100 hKjJHmgOT^S3D9:HD=f@E1
+IAXPGco89;Ec=:RZodIfK31
+R0
+w1721233167
+8/home/ubuntu/Documents/Quartus_Projects/sqrt/tb_sqrt.v
+F/home/ubuntu/Documents/Quartus_Projects/sqrt/tb_sqrt.v
+!i122 1
+L0 2 19
+R3
+R4
+r1
+!s85 0
+31
+R5
+!s107 /home/ubuntu/Documents/Quartus_Projects/sqrt/tb_sqrt.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ubuntu/Documents/Quartus_Projects/sqrt|/home/ubuntu/Documents/Quartus_Projects/sqrt/tb_sqrt.v|
+!i113 0
+R6
+R7
+R2

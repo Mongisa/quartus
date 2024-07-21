@@ -1,0 +1,18 @@
+module DEBO4Digits(A,B,C,D,ck,Dig,L,H,R);
+
+input wire R,ck;
+input wire [3:0] A,B,C,D;
+
+output wire H;
+output wire [3:0] Dig;
+output wire [6:0] L;
+
+wire en;
+
+pulse1khz pul1khz(.ck(ck),.R(R),.en(en));
+
+always @ (posedge ck) //Cnt0to3
+begin
+	
+end
+endmodule

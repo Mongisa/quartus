@@ -1,0 +1,15 @@
+|r_moore
+X => ac_state.DATAB
+X => ac_state.DATAB
+X => Selector1.IN2
+X => Selector0.IN1
+X => Selector2.IN1
+Y << Y.DB_MAX_OUTPUT_PORT_TYPE
+clk => ac_state~3.DATAIN
+r => ac_state.OUTPUTSELECT
+r => ac_state.OUTPUTSELECT
+r => ac_state.OUTPUTSELECT
+r => ac_state.OUTPUTSELECT
+r => ac_state.OUTPUTSELECT
+
+

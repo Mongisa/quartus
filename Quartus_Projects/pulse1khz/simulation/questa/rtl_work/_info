@@ -1,0 +1,80 @@
+m255
+K4
+z2
+Z0 !s99 nomlopt
+R0
+!s11f vlog 2021.2 2021.04, Apr 14 2021
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 d/home/ubuntu/Documents/Quartus_Projects/pulse1khz/simulation/questa
+T_opt
+!s110 1715769992
+VW]I7:Zd_Thb=OGZJXl0c62
+Z2 04 12 4 work tb_pulse1khz fast 0
+=1-000ae431a4f1-66449288-47d7b-18d3
+Z3 !s124 OEM10U2 
+Z4 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z5 tCvgOpt 0
+n@_opt
+Z6 OL;O;2021.2;73
+R1
+T_opt1
+Z7 !s110 1715770161
+VFL05^T1BRBoH0UIjkd3oE0
+R2
+=1-000ae431a4f1-66449331-cc0f5-1d10
+R3
+R4
+R5
+n@_opt1
+R6
+vpulse1khz
+R7
+!i10b 1
+!s100 B_al;PgocbC;L4hogCA8a0
+IMR7K17=n`_JMg>N7b`;X_1
+R1
+w1715764357
+8/home/ubuntu/Documents/Quartus_Projects/pulse1khz/pulse1khz.v
+F/home/ubuntu/Documents/Quartus_Projects/pulse1khz/pulse1khz.v
+!i122 0
+L0 1 19
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2021.2;73
+r1
+!s85 0
+31
+Z10 !s108 1715770161.000000
+!s107 /home/ubuntu/Documents/Quartus_Projects/pulse1khz/pulse1khz.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ubuntu/Documents/Quartus_Projects/pulse1khz|/home/ubuntu/Documents/Quartus_Projects/pulse1khz/pulse1khz.v|
+!i113 0
+Z11 o-vlog01compat -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 !s92 -vlog01compat -work work +incdir+/home/ubuntu/Documents/Quartus_Projects/pulse1khz -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R5
+vtb_pulse1khz
+R7
+!i10b 1
+!s100 IiMif:`>Ja?;kXLn5B3S42
+IXj=Pb;Tcacn=E``NCA0Q^3
+R1
+w1715770106
+8/home/ubuntu/Documents/Quartus_Projects/pulse1khz/tb_pulse1khz.v
+F/home/ubuntu/Documents/Quartus_Projects/pulse1khz/tb_pulse1khz.v
+!i122 1
+L0 2 28
+R8
+R9
+r1
+!s85 0
+31
+R10
+!s107 /home/ubuntu/Documents/Quartus_Projects/pulse1khz/tb_pulse1khz.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+/home/ubuntu/Documents/Quartus_Projects/pulse1khz|/home/ubuntu/Documents/Quartus_Projects/pulse1khz/tb_pulse1khz.v|
+!i113 0
+R11
+R12
+R5

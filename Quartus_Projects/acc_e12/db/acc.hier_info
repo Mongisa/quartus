@@ -1,0 +1,41 @@
+|acc
+B[0] => Add0.IN8
+B[0] => mux[0].DATAB
+B[1] => Add0.IN7
+B[1] => mux[1].DATAB
+B[2] => Add0.IN6
+B[2] => mux[2].DATAB
+Y[0] << Y[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[1] << Y[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[2] << Y[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[3] << Y[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[4] << Y[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[5] << Y[5]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[6] << Y[6]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+Y[7] << Y[7]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+clk => Y[0]~reg0.CLK
+clk => Y[1]~reg0.CLK
+clk => Y[2]~reg0.CLK
+clk => Y[3]~reg0.CLK
+clk => Y[4]~reg0.CLK
+clk => Y[5]~reg0.CLK
+clk => Y[6]~reg0.CLK
+clk => Y[7]~reg0.CLK
+r => Y.OUTPUTSELECT
+r => Y.OUTPUTSELECT
+r => Y.OUTPUTSELECT
+r => Y.OUTPUTSELECT
+r => Y.OUTPUTSELECT
+r => Y.OUTPUTSELECT
+r => Y.OUTPUTSELECT
+r => Y.OUTPUTSELECT
+sel => mux[7].OUTPUTSELECT
+sel => mux[6].OUTPUTSELECT
+sel => mux[5].OUTPUTSELECT
+sel => mux[4].OUTPUTSELECT
+sel => mux[3].OUTPUTSELECT
+sel => mux[2].OUTPUTSELECT
+sel => mux[1].OUTPUTSELECT
+sel => mux[0].OUTPUTSELECT
+
+
